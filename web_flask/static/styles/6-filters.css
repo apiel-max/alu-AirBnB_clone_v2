@@ -1,0 +1,83 @@
+/* Filters styles for the HBNB web application */
+MAIN {
+    padding: 30px;
+    flex: 1;
+}
+
+DIV.filters {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+DIV.filters DIV {
+    position: relative;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+DIV.filters DIV H3 {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #565A5C;
+}
+
+DIV.filters DIV H4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #565A5C;
+}
+
+DIV.filters DIV:hover H4 {
+    color: #FF5A5F;
+}
+
+DIV.popover {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: -10px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 10px;
+    min-width: 200px;
+    z-index: 100;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+DIV.filters DIV:hover DIV.popover {
+    display: block;
+}
+
+DIV.popover UL {
+    list-style: none;
+}
+
+DIV.popover UL LI {
+    padding: 5px 0;
+}
+
+DIV.popover UL LI A {
+    color: #565A5C;
+    text-decoration: none;
+}
+
+DIV.popover UL LI A:hover {
+    color: #FF5A5F;
+}
+
+DIV.popover UL LI.state {
+    font-weight: 700;
+}
+
+DIV.popover UL LI.city {
+    padding-left: 15px;
+    font-weight: 300;
+}

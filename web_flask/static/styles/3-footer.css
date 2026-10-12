@@ -1,0 +1,16 @@
+/* Footer styles for the HBNB web application */
+FOOTER {
+    background-color: #FFFFFF;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #DDDDDD;
+    margin-top: auto;
+}
+
+FOOTER P {
+    color: #565A5C;
+    font-size: 14px;
+}

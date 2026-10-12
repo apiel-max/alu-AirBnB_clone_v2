@@ -1,0 +1,17 @@
+/* Global styles for the HBNB web application */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #565A5C;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
